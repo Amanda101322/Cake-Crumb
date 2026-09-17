@@ -21,7 +21,7 @@ h1 {
 header p{
     color: #4a3028;
     font-size: 1.1rem;
-    margin: 0.frem 0 1.5rem;
+    margin: 0.5rem 0 1.5rem;
 }
 nav ul {
     list-style: none;
@@ -105,4 +105,7 @@ nav a {
     color: #6d8fa3;
     text-decoration: none;
     font-weight: bold;
+}
+.hidden {
+    display: none;
 }
