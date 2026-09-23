@@ -96,6 +96,7 @@ nav a {
     width: 100%;
     overflow-y: auto;
     border-radius: 12px;
+    position: relative;
 }
 .full-recipe h4 {
     font-family: "Cormorant Garamond", sans-serif;
@@ -126,4 +127,18 @@ nav a {
     justify-content: center;
     align-items: center;
     padding: 2rem;
+}
+.close-recipe {
+    position: absolute;
+    top: 0.8rem;
+    right: 0.8rem;
+    background: none;
+    border: none;
+    color: #149ded;
+    font-family: "Alegreya", serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.hidden {
+    display: none;
 }
