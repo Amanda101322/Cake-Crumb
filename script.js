@@ -12,4 +12,3 @@ recipeCards.forEach((card) => {
     modal.classList.remove("hidden");
   });
 });
-     
