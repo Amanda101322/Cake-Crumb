@@ -8,7 +8,7 @@ body {
     font-family: "Alegreya", serif;
 }
 header {
-    background-color: #fdecef;
+    background: linear-gradient(180deg, #fdecef 0%, #fff8f0 100%);
     text-align: center;
     padding: 1.3rem 1.2rem;
 }
@@ -19,7 +19,8 @@ h1 {
     font-size: 3rem;
 }
 header p{
-    color: #4a3028;
+    color: #6b4f4f;
+    font-style: italic;
     font-size: 1.1rem;
     margin: 0.5rem 0 1.5rem;
 }
@@ -33,7 +34,12 @@ nav li {
 nav a {
     color: #4a3028;
     text-decoration: none;
-    margin: 0 0.6rem;
+    margin: 0 0.8rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 1 px solid transparent;
+}
+nav a:hover {
+    border-bottom: 1px solid #8fa58a;
 }
 #recipes {
     padding: 1.5rem  1.2rem;
@@ -158,4 +164,15 @@ nav a {
     height: 160px;
     object-fit: cover;
     display: block;
+}
+footer {
+    background-color: #fdecef;
+    text-align: center;
+    padding: 2rem 1 rem;
+    margin-top: 3rem;
+    border-top: 1px solid #f3d9df;
+}
+footer p {
+    margin: 0.3rem 0;
+    color: #6b4f4f;
 }
